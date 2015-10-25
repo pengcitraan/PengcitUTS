@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Pengcit UTS", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, getString(R.string.info_bar), Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
